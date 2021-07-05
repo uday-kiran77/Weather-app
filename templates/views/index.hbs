@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node-Weather App</title>
+    <link rel="icon" href="img/weather.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <h1>Weather</h1>
+
+    <p class="main-text">Use this site to get the current weather!</p>
+    <form action="">
+        <input type="text" placeholder="Location" id='location'>
+        <button>Search</button>
+    </form>
+    <h2 id="error"></h2>
+   
+
+
+    <p id="messageOne" class="desc-text"></p>
+    <p id='messageTwo' class="desc-text"></p>
+
+        
+
+    <div id="weather">    
+        <h3>More About Your Search.</h3>
+        <b>
+        <p id="wind_speed">Wind speed:</p>
+        <p id="wind_dir">Wind Directon:</p>
+        <p id="wind_degree">Wind degree:</p>
+        <p id="precip"> Preciptation:</p>
+        <p id="humidity">Humidity:</p>
+        <p id="local_time"> Local Time:</p> 
+        <p id="time_zone"> Time Zone:</p>
+        </b> 
+
+    </div> 
+      <hr>
+<footer>
+  <p class="authorinfo" onclick="myFunction('https://www.linkedin.com/in/udaykiran77')">Created by Uday Kiran</p>
+  <p class="sourceinfo" onclick="myFunction('https://github.com/uday-kiran77/node-weather-app')">Source Code on Github <i class="fa fa-external-link" aria-hidden="true"></i>
+  </p>
+</footer>
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    overflow: scroll;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+html{
+    background: url(../img/cloud.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height: 100vh;
+max-height: auto;
+width:100vw;
+margin-top: 0;
+
+}
+#weather{
+      border:1px solid black;
+    border-radius: 5px;
+    width:300px;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: auto;  
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.main-text{
+    font-size: 18px;
+}
+.desc-text{
+    padding: 0px 20px;
+}
+#error{
+    color:red;
+    font-weight: bold;
+}
+form{
+    margin-bottom: 25px;
+}
+input{
+    width:220px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 3px;
+    border-right: none;
+    border: 1px solid black;
+    margin: 0;
+}
+
+button{
+    width:80px;
+    margin: 0px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius:3px;
+    border:1px solid black;
+    font-size: 18px;
+    cursor: pointer;
+}
+h3{
+    text-decoration: underline;
+}
+/*new changes*/
+
+#weather{
+  display: block;
+  opacity: 0;
+}
+footer{
+color:#888888;
+margin-top: 50px;
+font-family: monospace;
+font-size: 18px;
+margin-top: px;
+}
+.authorinfo{
+  float: left;
+  margin-left: 5%;
+  margin-top: -25px;
+}
+.authorinfo:hover{
+  color:black;
+  cursor: pointer;
+}
+
+.sourceinfo {
+  margin-top: -25px;
+text-decoration:none;
+margin-right: 5%;
+color:#888888;
+float: right;
+
+
+}
+/* #weather+footer{
+margin-top: 100px;
+} */
+.sourceinfo i{
+  color:#888888;
+  font-size: 18px !important;
+}
+.sourceinfo:hover{
+text-decoration:none;
+color:black;
+}
+
+hr{
+  width: 90%;
+  color:#888888;
+  
+}
+
+body{
+  overflow-x:hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+  footer{
+  text-align: center !important;
+}
+.sourceinfo{
+text-decoration:none;
+color:#888888;
+float: none;
+text-align: center;
+margin-top: 0;
+}
+.authorinfo{
+  float: none;
+  text-align: center;
+  margin-top: -25px;
+  margin-left:0px;
+}
+.sourceinfo{
+  margin-right: 0%;
+}
+
+}
