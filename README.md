@@ -3,8 +3,8 @@ In this application, a user can fetch the current weather for any location just 
 ##### Technologies used
 - NodeJS
 - ExpressJS
-- Mapbox-API(for geolocation services)
-- WeatherStack-API(for weather services)
+- Mapbox-API (for geolocation services)
+- WeatherStack-API (for weather services)
 - hbs
 <br>
 
