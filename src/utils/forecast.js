@@ -1,7 +1,7 @@
 const request=require('request')
 
 const forecast=(lat,long,callback)=>{
-    const api_key="Weatherstack_API_KEY"
+    const api_key=process.env.WEATHERSTACKAPIKEY
     const url="http://api.weatherstack.com/current?access_key="+api_key+"&query="+lat+','+long+'&units=m'
 
     request({url,json:true},(error,{body})=>{
