@@ -1,6 +1,6 @@
 const request=require('request')
 const geocode=(address,callback)=>{
-    const api_key='Mapbox_API_KEY'
+    const api_key=process.env.MAPBOXAPIKEY
     const url='https://api.mapbox.com/geocoding/v5/mapbox.places/'+encodeURIComponent(address)+'.json?access_token='+api_key+'&limit=1'
     
     request({url:url,json:true},(error,{body})=>{
